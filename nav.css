@@ -1,0 +1,51 @@
+@charset "utf-8";
+nav, .logo{
+	position:absolute;
+	top:40px;
+}
+.logo {
+	height:1.5em;
+    left:5vw;
+}
+.logo:hover {
+	opacity: 0.8;
+}
+nav {
+	right:5vw;
+}
+nav a {
+	margin-left:5px;
+}
+nav a:hover {
+	text-decoration:none;
+	opacity: 0.8;
+}
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0;
+    min-height: 100px;
+    padding: 10px;
+    background-color: none;
+	transition: 0.3s;
+	z-index:999999;
+}
+.color {
+	color: white;
+	transition: 0.3s;
+}
+.color:hover {
+	opacity:0.6;
+	color:white;
+}
+.color.scrolling {
+	color: #40404c;
+}
+.header.scrolling {
+    background-color: #fff;
+	box-shadow: 0px 0px 10px 1px hsla(0, 0%, 0%, 0.09);
+}
+.colorchange {
+	color:#454545;
+}
