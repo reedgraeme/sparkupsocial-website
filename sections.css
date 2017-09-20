@@ -3,14 +3,11 @@
 	box-sizing: border-box;
 }
 .margin {
-	min-height:10vh;
-	background:white;
+	min-height:15vh;
+	background:#fff;
 }
 .fullheight {
 	min-height:100vh;
-}
-.oneandhalfheight {
-	min-height:150vh;
 }
 .halfheight {
 	min-height: 50vh;

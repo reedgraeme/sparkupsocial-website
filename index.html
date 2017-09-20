@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="sections.css">
 <link rel="stylesheet" href="text-btn.css">
+<link rel="stylesheet" href="form.css">
 <title>SparkUpSocial | Home</title>
 </head>
 
@@ -38,27 +39,31 @@
 
 	<div class="margin"></div>
 
-<section class="oneandhalfheight">
+<section class="fullheight">
 <div class="container">
-	<div class="row servicerow">
+	<div class="row Reveal">
 		<div class="col-lg-6 col-sm-12 serviceimage"></div>
-		<div class="col-lg-6 col-sm-12 service">
+		<div class="col-lg-6 col-sm-12">
 			<h2 class="sectionheading">Social Media Advertising</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 		</div>
 	</div>
 
-		<div class="row servicerow">
-		<div class="col-lg-6 col-sm-12 service">
+  <div class="margin"></div>
+		<div class="row Reveal">
+    <div class="col-lg-6 col-sm-12 serviceimage"></div>
+		<div class="col-lg-6 col-sm-12">
 			<h2 class="sectionheading">Targeted Marketing SEO</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 		</div>
-		<div class="col-lg-6 col-sm-12 serviceimage"></div>
+
 	</div>
 
-		<div class="row servicerow">
+<div class="margin"></div>
+
+		<div class="row Reveal">
 		<div class="col-lg-6 col-sm-12 serviceimage"></div>
-		<div class="col-lg-6 col-sm-12 service">
+		<div class="col-lg-6 col-sm-12">
 			<h2 class="sectionheading">Google Account Managment</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 		</div>
@@ -81,7 +86,7 @@
 
 <section class="halfheight">
 		<div class="container">
-		<div class="row aboutus">
+		<div class="row  Reveal aboutus">
 			<div class="col-lg-5">
 				<h2 class="sectionheading text-right aboutheading">What is <span>SparkUpSocial</span></h2>
 			</div>
@@ -94,18 +99,32 @@
 </section>
 
 <section class="fullheight">
+  <div class="container verticalcenter ">
+  <h2 class="blue heading">Contact Us </h2>
+  <form action="contact-form.php" method="post" autocomplete="on">
+    <label for="name"></label>
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
+    <label for="Email"></label>
+    <input type="text" id="email" name="email" placeholder="Your email.." required>
+    <label for="subject"></label>
+    <textarea id="subject" name="subject" placeholder="Tell me more about your project..." style="height:200px"></textarea>
+    <input class="btn" type="submit" value="Submit">
+  </form>
+</div>
 </section>
 
 	<footer>
 		<div class="footercontainer">
-				<div class="container">
+				<div class="container footercontent">
 					<div class="row ">
-						<div class="col-lg-6 ">
+						<div class="col-lg-6">
+              <h3>About Us</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						</div>
 						<div class="col-lg-6">
+              <h3>heading two</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 								incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -134,31 +153,15 @@
 	</div>
   </footer>
 
-
-
-
-
-
-
-
-
-
-
-
 <script
   src="http://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous">
 </script>
-
 <script src="scrollspeed.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-
 <script src="scrollreveal.min.js"></script>
-
 <script>
 	  window.sr = ScrollReveal();
 	    if (sr.isSupported()) {
@@ -166,11 +169,6 @@
       }
       sr.reveal('.Reveal', { origin: 'bottom', reset: true, mobile: true, viewFactor:0.5, });
 </script>
-
-
-
-
-
 <script>
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();

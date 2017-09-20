@@ -1,5 +1,4 @@
 @charset "utf-8";
-/*-------background image--------*/
 .backgroundimage {
 	z-index: -999;
 	height:100vh;
@@ -7,7 +6,7 @@
 	background:url(backgroundimage.jpg);
 	position:fixed;
 	top:0;
-    }
+}
 .overlay {
 	z-index: -99;
 	height:100vh;
@@ -16,11 +15,8 @@
 	position:absolute;
 	top:0;
 	opacity: 0.6;
-    }
+}
 
-
-
-/*-------home--------*/
 .vcenterhcenter {
 	margin:0 auto;
 	top:40vh;
@@ -35,9 +31,7 @@
 }
 .serviceimage {
 	background: #f0f0f0;
-}
-.servicerow {
-	height: 50vh;
+	height: 250px;
 }
 .calltoaction {
 	text-align: center;
@@ -46,11 +40,17 @@
 	padding-top: 11em;
 }
 .aboutus {
-	padding-top: 10em;
+	padding-top: 15vh;
 }
 .socialmedia {
 	padding: 0 0 0 1em;
 }
 .socialmedia{
 color: #40404c;
+}
+.footercontent {
+padding-top: 8vh;
+}
+.verticalcenter {
+	padding-top: 9%;
 }
