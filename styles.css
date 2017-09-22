@@ -49,7 +49,8 @@
 color: #40404c;
 }
 .footercontent {
-padding-top: 8vh;
+	padding-top:10vh;
+	padding-bottom: 6vh;
 }
 .verticalcenter {
 	padding-top: 9%;
