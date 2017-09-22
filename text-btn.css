@@ -9,7 +9,7 @@
 }
 .subheading{
 	font-size: 16px;
-	margin: 0 10vw;
+	margin: 0 5vw;
 }
 .sectionheading {
 	font-size: 24px;
@@ -39,6 +39,7 @@ p, .sectionheading {
 }
 .aboutheading {
 	color:hsla(345,100%,50%,1.00);
+	line-height: 1.5;
 }
 .aboutp {
 	width:50%;

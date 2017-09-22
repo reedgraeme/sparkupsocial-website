@@ -11,7 +11,7 @@
 	z-index: -99;
 	height:100vh;
 	width:100%;
-	background: black;
+	background: #000;
 	position:absolute;
 	top:0;
 	opacity: 0.6;
@@ -51,6 +51,7 @@ color: #40404c;
 .footercontent {
 	padding-top:10vh;
 	padding-bottom: 6vh;
+	line-height: 1.5;
 }
 .verticalcenter {
 	padding-top: 9%;

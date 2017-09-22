@@ -19,7 +19,11 @@ section:nth-child(4){
 	background:#fff;
 }
 section:nth-child(6){
-	background:#40404c;
+	background: url(plansBackground.jpg);
+	z-index: -99;
+	height:50vh;
+	width:100%;
+	top:0;
 }
 section:nth-child(7){
 	background:#fff;
